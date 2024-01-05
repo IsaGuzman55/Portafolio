@@ -1,0 +1,81 @@
+.card{
+    height: 100%;
+}
+
+.Opciones-Principales{
+    margin: 5em;
+}
+
+#Lenguaje{
+    width: 100%;
+}
+
+#Tema{
+    width: 100%;
+}
+
+.fila1{
+    margin: 0 80px 80px 80px;
+}
+
+.fila2{
+    margin: 0 80px 0 80px;
+}
+
+footer{
+    background-color: #dc3545;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.img-icon{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* TEMA OSCURO */
+.Theme-dark{
+    background-color: rgb(18, 18, 18);
+}
+.Theme-dark .card{
+    background-color: rgb(69, 66, 66);
+    color: white;
+}
+.Theme-dark button{
+    background-color: black;
+    border: black;
+}
+.Theme-dark button:hover{
+    background-color: grey ;
+    color: white;
+}
+.Theme-dark footer{
+    background-color: rgb(69, 66, 66);
+}
+
+/* TEMA CLARO */
+.Theme-light{
+    background-color: white;
+}
+
+
+/* TEMA LIBRE */
+.Theme-free{
+    background-color: rgb(142, 98, 65);
+}
+.Theme-free .card{
+    background-color: rgb(206, 165, 131);
+}
+.Theme-free button{
+    background-color: rgb(86, 59, 31);
+    border: black;
+}
+.Theme-free button:hover{
+    background-color: rgb(134, 101, 68) ;
+    color: white;
+}
+.Theme-free footer{
+    background-color: rgb(86, 59, 31);
+}
